@@ -1,0 +1,14 @@
+{
+  "llm": {
+    "provider": "openai",
+    "command": ""
+  },
+  "openai": {
+    "api_key_env": "OPENAI_API_KEY",
+    "model": "gpt-5.4",
+    "base_url": "https://api.openai.com/v1/responses",
+    "wire_api": "responses",
+    "reasoning_effort": "high",
+    "timeout_seconds": 120
+  }
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "title": "A Survey of Agentic AI for Banking Service Operations",
+    "authors": ["A. Chen", "B. Kumar"],
+    "year": 2025,
+    "abstract": "This survey reviews agentic AI capabilities for banking service operations, compliance assistance, and workflow orchestration in enterprise environments.",
+    "doi": "10.1000/example-001",
+    "venue": "MIS Quarterly",
+    "url": "https://example.org/paper-001"
+  },
+  {
+    "title": "Enterprise Multi-Agent Governance Frameworks for Information Systems",
+    "authors": ["C. Lee", "D. Park"],
+    "year": 2024,
+    "abstract": "The paper proposes an information systems framework for governing enterprise multi-agent deployments with measurable business controls.",
+    "doi": "10.1000/example-002",
+    "venue": "Information Systems Research",
+    "url": "https://example.org/paper-002"
+  },
+  {
+    "title": "A Review of Agentic Decision Support in Financial Services",
+    "authors": ["E. Wong"],
+    "year": 2025,
+    "abstract": "This review synthesizes agentic decision support systems in financial services with a focus on organizational adoption and performance.",
+    "doi": "10.1000/example-003",
+    "venue": "Management Science",
+    "url": "https://example.org/paper-003"
+  },
+  {
+    "title": "Benchmarking Autonomous Agents for Enterprise Planning",
+    "authors": ["F. Singh", "G. Patel"],
+    "year": 2025,
+    "abstract": "We benchmark multi-agent planning systems for enterprise task execution and compare orchestration strategies under realistic workload constraints.",
+    "doi": "10.1000/example-004",
+    "venue": "AAMAS",
+    "url": "https://example.org/paper-004"
+  },
+  {
+    "title": "Surveying Business-Oriented Agentic Workflows with Large Models",
+    "authors": ["H. Lin"],
+    "year": 2025,
+    "abstract": "This survey summarizes business-facing agentic workflows built on large models and distills reusable workflow design patterns.",
+    "doi": "10.1000/example-005",
+    "venue": "NeurIPS",
+    "url": "https://example.org/paper-005"
+  },
+  {
+    "title": "ICML Methods for Reliable Agent Tool Use in Enterprises",
+    "authors": ["I. Garcia", "J. Miller"],
+    "year": 2025,
+    "abstract": "A methods paper on reliable agent tool use with enterprise constraints, grounding, and structured evaluation.",
+    "doi": "10.1000/example-006",
+    "venue": "ICML",
+    "url": "https://example.org/paper-006"
+  },
+  {
+    "title": "AAAI Perspectives on Commercial Agent Collaboration",
+    "authors": ["K. Zhao"],
+    "year": 2024,
+    "abstract": "The study investigates commercial agent collaboration patterns and their impact on complex service workflows.",
+    "doi": "10.1000/example-007",
+    "venue": "AAAI",
+    "url": "https://example.org/paper-007"
+  },
+  {
+    "title": "IJCAI Survey on Multi-Agent Reasoning for Regulated Industries",
+    "authors": ["L. Gomez", "M. Brown"],
+    "year": 2025,
+    "abstract": "This survey covers multi-agent reasoning approaches for regulated industries, especially finance and public-sector operations.",
+    "doi": "10.1000/example-008",
+    "venue": "IJCAI",
+    "url": "https://example.org/paper-008"
+  },
+  {
+    "title": "Agentic Customer Support Orchestration in Banking",
+    "authors": ["N. Davis"],
+    "year": 2024,
+    "abstract": "The paper studies banking customer support orchestration with agentic AI and practical business metrics for value capture.",
+    "doi": "10.1000/example-009",
+    "venue": "MIS Quarterly",
+    "url": "https://example.org/paper-009"
+  },
+  {
+    "title": "Information Systems Review of Human-Agent Workflow Design",
+    "authors": ["O. Ahmed"],
+    "year": 2023,
+    "abstract": "A review of human-agent workflow design with implications for organizational change and enterprise process redesign.",
+    "doi": "10.1000/example-010",
+    "venue": "Information Systems Research",
+    "url": "https://example.org/paper-010"
+  },
+  {
+    "title": "Financial Agent Memory Architectures for High-Stakes Decisions",
+    "authors": ["P. Rossi"],
+    "year": 2025,
+    "abstract": "We propose memory architectures for high-stakes financial agent systems and measure downstream decision quality.",
+    "doi": "10.1000/example-011",
+    "venue": "NeurIPS",
+    "url": "https://example.org/paper-011"
+  },
+  {
+    "title": "Service Operations with AI Agents: A Survey",
+    "authors": ["Q. Wu", "R. Tran"],
+    "year": 2024,
+    "abstract": "This survey summarizes service operations with AI agents and highlights enterprise readiness, governance, and business fit.",
+    "doi": "10.1000/example-012",
+    "venue": "Management Science",
+    "url": "https://example.org/paper-012"
+  }
+]
+
