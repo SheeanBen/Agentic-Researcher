@@ -183,9 +183,3 @@ python3 scripts/refresh_notes.py --date 2026-03-22 --config config/agentic_resea
 
 - 当前 OpenAI 配置文件已切到 `gpt-5.4`，通过 `Responses API` 调用。
 - 运行前需要在环境里提供 `OPENAI_API_KEY`；如果你走自定义中转，还需要提供 `OPENAI_BASE_URL`。
-
-## 建议你下一步再补的内容
-
-- 一份英文版简短 README，方便 GitHub 外部读者快速理解
-- 一张工作流示意图，展示“检索 -> 候选 -> 确认 -> PDF -> 笔记”
-- 一个 `demo` 目录，只保留最小示例，不放真实研究数据
