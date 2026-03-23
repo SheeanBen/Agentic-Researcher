@@ -1,7 +1,10 @@
 # Agentic Researcher
 
+[![Tests](https://github.com/SheeanBen/Agentic-Researcher/actions/workflows/tests.yml/badge.svg)](https://github.com/SheeanBen/Agentic-Researcher/actions/workflows/tests.yml)
+
+An agentic literature workflow template for Information Systems researchers, connecting discovery, screening, PDF sync, and Chinese research notes.
+
 这个工作区现在已经具备一套可运行的、以当前工作区为核心的文献工作流。
-当前这个副本已经整理成适合公开的模板版：不包含真实 PDF、全文缓存、个人 API 配置和实际阅读产物，只保留代码、配置、测试、fixtures 与目录骨架。
 仓库现在已内置 GitHub Actions 自动测试。
 
 ## 这是什么
