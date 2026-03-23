@@ -55,8 +55,6 @@ NOTE_SCHEMA = {
         "research_process": {"type": "string"},
         "findings_contributions": {"type": "string"},
         "extensions_critique": {"type": "string"},
-        "research_suggestion": {"type": "string"},
-        "business_application": {"type": "string"},
     },
     "required": [
         "overview",
@@ -65,8 +63,6 @@ NOTE_SCHEMA = {
         "research_process",
         "findings_contributions",
         "extensions_critique",
-        "research_suggestion",
-        "business_application",
     ],
 }
 
@@ -336,8 +332,6 @@ def generate_note_sections_with_openai(
             "abstract": paper.abstract,
             "recommendation_reason": paper.recommendation_reason,
             "summary_zh": paper.summary_zh,
-            "research_suggestion_zh": paper.research_suggestion_zh,
-            "business_application_zh": paper.business_application_zh,
         },
         "full_text_available": bool(full_text.strip()),
         "full_text_excerpt": _condense_full_text(full_text),
@@ -350,8 +344,7 @@ def generate_note_sections_with_openai(
         "2. 不要使用 LaTeX、公式或英文小标题；"
         "3. 不要空泛复述摘要，要给出研究判断、理论位置、方法边界、可扩展方向与批判性评价；"
         "4. 若全文信息不足，可以明确写“基于摘要与有限正文判断”，但不要编造实验细节；"
-        "5. 研究建议与商业应用想法要尽量贴近信息系统研究和企业数字化场景；"
-        "6. 每个字段写成可直接放进 Markdown 正文的自然中文段落。"
+        "5. 每个字段写成可直接放进 Markdown 正文的自然中文段落。"
     )
     payload = _call_openai_json(
         system_prompt=system_prompt,

@@ -231,8 +231,6 @@ class AgenticResearcherTests(unittest.TestCase):
             self.assertIn("## 3. 实验过程", note_content)
             self.assertIn("## 4. 核心结论与贡献", note_content)
             self.assertIn("## 5. 扩展方向与批判性评价", note_content)
-            self.assertIn("## 研究建议", note_content)
-            self.assertIn("## 商业应用想法", note_content)
             self.assertIn("## 一句话定位", note_content)
             self.assertNotIn("LaTeX", note_content)
             self.assertIn("笔记依据:", note_content)

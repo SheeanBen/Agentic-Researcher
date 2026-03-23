@@ -53,10 +53,3 @@ tags: [{{tags}}]
 - 值得保留的质疑：
 - 对你自己研究的可借鉴点：
 
-## 研究建议
-
-{{research_suggestion_zh}}
-
-## 商业应用想法
-
-{{business_application_zh}}

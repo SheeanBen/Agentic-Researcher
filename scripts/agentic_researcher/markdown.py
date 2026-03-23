@@ -201,8 +201,6 @@ def render_note(
     research_process = sections.get("research_process") or _experiment_process_zh(paper, analysis_text)
     findings_contributions = sections.get("findings_contributions") or _core_contribution_zh(paper, analysis_text)
     extensions_critique = sections.get("extensions_critique") or _extension_critique_zh(paper, analysis_text)
-    research_suggestion = sections.get("research_suggestion") or paper.research_suggestion_zh or "建议阅读全文后把变量、机制与场景进一步抽象成可检验的研究设计。"
-    business_application = sections.get("business_application") or paper.business_application_zh or "建议结合具体业务流程重新映射其落地位置，并评估可观测性、治理成本与 ROI。"
     lines = [
         "---",
         f'title: "{paper.title.replace(chr(34), chr(39))}"',
@@ -252,13 +250,6 @@ def render_note(
         "",
         extensions_critique,
         "",
-        "## 研究建议",
-        "",
-        research_suggestion,
-        "",
-        "## 商业应用想法",
-        "",
-        business_application,
         "",
     ]
     return "\n".join(lines)
